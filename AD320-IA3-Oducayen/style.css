@@ -1,0 +1,28 @@
+body {
+	height:800px;
+}
+
+div {
+	height:20%;
+	border:5px solid white;
+}
+
+div#red {
+	background:red;
+}
+
+div#blue {
+	background:blue;
+}
+
+div#green {
+	background:green;
+}
+
+div#yellow {
+	background:yellow;
+}
+
+div#black {
+	background:black;
+}
