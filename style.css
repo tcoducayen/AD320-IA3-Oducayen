@@ -7,22 +7,30 @@ div {
 	border:5px solid white;
 }
 
-div#red {
+p {
+	font-size:90px;
+	margin:30px auto;
+	width:15%;
+}
+
+div#redBox { /*click mouse onclick="redFunction()"*/
 	background:red;
 }
 
-div#blue {
+div#blueBox { /* load page onload="blueFunction()"*/
 	background:blue;
 }
 
-div#green {
+div#greenBox { /* key stroke onmousedown="greenFunction()" onmouseup="greenFunction2()" */
 	background:green;
+	color:yellow;
 }
 
-div#yellow {
+div#yellowBox { /* load page, leave page onunload="yellowFunction()"*/ 
 	background:yellow;
 }
 
-div#black {
+div#blackBox {  /* hover onmouseover="blackFunction()" onmouseout="blackFunction2()"*/
 	background:black;
+	color:purple;
 }
